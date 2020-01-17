@@ -71,6 +71,10 @@ p {
     margin: 0 auto;
 }
 
+/*-------------------------------------------------------------*/
+/*------------------------ INDEX CSS --------------------------*/
+/*-------------------------------------------------------------*/
+
 /*-------------------- HEADER ----------------------*/
 
 header {
@@ -223,4 +227,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*-------------------------------------------------------------*/
+/*------------------------ ABOUT CSS --------------------------*/
+/*-------------------------------------------------------------*/
+
+/*-------------------- TOP CONTENT ----------------------*/
+.top-about-content {
+    border-bottom: 1px dashed black;
+    padding: 1% 2% 3%;
+}
+
+/*-------------------- FOUR BOXES ----------------------*/
+
+.four-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 0 0;
+}
+
+.column1, .column2 {
+    width: 46%;
+}
+
+.about-box {
+    border-bottom: 1px double dashed black;
+    padding: 0 0 5%;
+    margin: 0 0 12%;
+}
+
+.about-box img {
+    margin: 0 0 3%;
+}
+
+.about-box p {
+    margin: 0 0 4%;
+} 
+
+.about-box button {
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color:  white;
+    font-weight: 500;
+}
+
+/*-------------------- BOTTOM CONTENT ----------------------*/
+
+.about-bottom-content {
+    padding: 0 2% 5%;
 }
