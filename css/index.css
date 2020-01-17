@@ -71,6 +71,48 @@ p {
     margin: 0 auto;
 }
 
+/*-------------------- HEADER ----------------------*/
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumbo-img {
+    margin: 2% 0;
+}
+
+/*----------- NAV ----------*/
+
+.full-navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 3% 0 5%;
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+} 
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(201, 15, 15);
+}
+
+/*-------------------- TOP CONTENT ----------------------*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +126,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*-------------------- MIDDLE CONTENT ----------------------*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,6 +154,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*-------- BOX COLORS ----------*/
 
 .one {
     background-color: teal;
@@ -142,6 +188,7 @@ p {
     background-color: dodgerblue;
 }
 
+/*-------------------- BOTTOM CONTENT ----------------------*/
 
 .bottom-content {
     display: flex;
@@ -156,6 +203,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*-------------------- FOOTER ----------------------*/
 
 footer {
     width: 100%;
