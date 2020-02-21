@@ -71,6 +71,56 @@ p {
     margin: 0 auto;
 }
 
+* {
+    max-width: 100%;
+}
+
+/*-------------------------------------------------------------*/
+/*------------------------ INDEX CSS --------------------------*/
+/*-------------------------------------------------------------*/
+
+/*-------------------- HEADER ----------------------*/
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumbo-img {
+    margin: 2% 0;
+}
+
+/*----------- NAV ----------*/
+
+.full-navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 3% 0 5%;
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+} 
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(201, 15, 15);
+}
+
+/*-------------------- TOP CONTENT ----------------------*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +134,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*-------------------- MIDDLE CONTENT ----------------------*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +156,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*-------- BOX COLORS ----------*/
+
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
+}
+
+/*-------------------- BOTTOM CONTENT ----------------------*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +211,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*-------------------- FOOTER ----------------------*/
 
 footer {
     width: 100%;
@@ -143,4 +231,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*-------------------------------------------------------------*/
+/*------------------------ ABOUT CSS --------------------------*/
+/*-------------------------------------------------------------*/
+
+/*-------------------- TOP CONTENT ----------------------*/
+.top-about-content {
+    border-bottom: 1px dashed black;
+    padding: 1% 2% 3%;
+}
+
+/*-------------------- FOUR BOXES ----------------------*/
+
+.four-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 0 0;
+}
+
+.column1, .column2 {
+    width: 46%;
+}
+
+.about-box {
+    border-bottom: 1px double dashed black;
+    padding: 0 0 5%;
+    margin: 0 0 12%;
+}
+
+.about-box img {
+    margin: 0 0 3%;
+}
+
+.about-box p {
+    margin: 0 0 4%;
+} 
+
+.about-box button {
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color:  white;
+    font-weight: 500;
+}
+
+/*-------------------- BOTTOM CONTENT ----------------------*/
+
+.about-bottom-content {
+    padding: 0 2% 5%;
+}
+
+/*-------------------------------------------------------------*/
+/*------------------------- BLOG CSS --------------------------*/
+/*-------------------------------------------------------------*/
+
+.blogs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile img{
+    width: 10%;
+    height: 10%;
+    border: .1px solid black;
+    border-radius: 55%;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 50%;
+}
+
+.blog-box {
+    width: 50%;
 }
